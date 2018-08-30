@@ -51,16 +51,8 @@ class ViewController: UIViewController {
         let timer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(disappearLabel), userInfo: nil, repeats: false)
     }
 
-//when device shakes do below
-//    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
-//        if event?.subtype == UIEventSubtype.motionShake {
-//            self.getARandomResponse()
-//            print(getARandomResponse())
-//        }
-//        else {
-//            print("Error")
-//        }
-//    }
+/************ google how to add a shake gesture and add code for gesture recognizer on line 55***********/  
+    
 
     func disappearLabel() {
         fortuneLabel.text = ""
